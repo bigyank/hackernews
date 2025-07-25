@@ -1,0 +1,52 @@
+.story-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.story-title {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.story-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.story-link:hover {
+  text-decoration: underline;
+}
+
+.story-domain {
+  font-size: 0.85rem;
+  color: #828282;
+  margin-left: 7px;
+}
+
+.story-meta {
+  font-size: 0.85rem;
+  color: #828282;
+}
+
+.story-meta span {
+  margin-right: 10px;
+}
+
+.story-comments {
+  color: #828282;
+  text-decoration: none;
+}
+
+.story-comments:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .story-title {
+    font-size: 1rem;
+  }
+  
+  .story-meta {
+    font-size: 0.8rem;
+  }
+} 
